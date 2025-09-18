@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    output: 'export', // Required for npm run export
+    output: 'export',
     images: {
-        unoptimized: true, // GitHub Pages doesn’t support dynamic image optimization
+        unoptimized: true,
     },
 };
 

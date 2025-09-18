@@ -44,7 +44,9 @@ const Hero: FC = () => {
                 {/* Hero Image / Illustration */}
                 <div className="mb-8 md:mb-0 md:ml-12 flex justify-center">
                     <Image
-                        src="/hero-illustration-dark.png" // Use a darker themed illustration
+                        src="/hero-illustration-dark.png"
+                        width={450}
+                        height={450}
                         alt="Web design illustration"
                         className="w-80 sm:w-96 md:w-[450px] animate-fade-in"
                     />

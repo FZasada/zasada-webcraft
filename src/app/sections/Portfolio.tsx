@@ -48,9 +48,11 @@ const Portfolio: FC = () => {
                             className="relative overflow-hidden rounded-2xl shadow-xl transform transition-all hover:scale-105 hover:shadow-2xl group"
                         >
                             <Image
-                                src={project.image}
-                                alt={project.title}
-                                className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                                src="/hero-illustration-dark.png"
+                                alt="Web design illustration"
+                                width={450}
+                                height={450}
+                                className="w-80 sm:w-96 md:w-[450px] animate-fade-in"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300 flex flex-col justify-end p-4">
                                 <h3 className="text-white text-xl font-semibold">{project.title}</h3>

@@ -2,6 +2,7 @@
 
 import { FC } from "react";
 import { COMPANY_NAME } from "@/config/constants";
+import Image from "next/image";
 
 const Hero: FC = () => {
     return (
@@ -42,7 +43,7 @@ const Hero: FC = () => {
 
                 {/* Hero Image / Illustration */}
                 <div className="mb-8 md:mb-0 md:ml-12 flex justify-center">
-                    <img
+                    <Image
                         src="/hero-illustration-dark.png" // Use a darker themed illustration
                         alt="Web design illustration"
                         className="w-80 sm:w-96 md:w-[450px] animate-fade-in"

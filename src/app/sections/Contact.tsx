@@ -32,14 +32,14 @@ const Contact: FC = () => {
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-white text-center mb-6">
                     Get in <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">Touch</span>
                 </h2>
-                <p className="text-gray-300 text-center mb-12">
-                    Have a project in mind or want to collaborate? Fill out the form below and we’ll get back to you as soon as possible.
+                <p className="text-gray-700">
+                    Have a project in mind or want to collaborate? Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </p>
 
                 {submitted ? (
                     <div className="text-center py-12 px-6 bg-gray-800/70 backdrop-blur-md rounded-xl shadow-xl">
                         <h3 className="text-xl font-semibold text-indigo-400 mb-2">Thank you!</h3>
-                        <p className="text-gray-300">Your message has been sent. We'll reach out to you shortly.</p>
+                        <p className="text-gray-300">Your message has been sent. We&apos;ll reach out to you shortly.</p>
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-6 bg-gray-800/70 backdrop-blur-md p-8 rounded-2xl shadow-xl">

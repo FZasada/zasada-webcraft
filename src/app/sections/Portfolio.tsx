@@ -1,6 +1,7 @@
 "use client";
 
 import { FC } from "react";
+import Image from "next/image";
 
 const Portfolio: FC = () => {
     const projects = [
@@ -46,7 +47,7 @@ const Portfolio: FC = () => {
                             key={index}
                             className="relative overflow-hidden rounded-2xl shadow-xl transform transition-all hover:scale-105 hover:shadow-2xl group"
                         >
-                            <img
+                            <Image
                                 src={project.image}
                                 alt={project.title}
                                 className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
